@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Farhan's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">PORT<span>FOLIO</span></a>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="projects.html" class="nav-link">Projects</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="page-section">
+        <div class="container">
+            <div class="section-header">
+                <h1 class="page-title">GET IN TOUCH</h1>
+                <p class="page-subtitle">Open to entry-level roles and research opportunities in biotechnology, bioinformatics, and cheminformatics.</p>
+            </div>
+
+            <div class="contact-grid">
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=firdush12@gmail.com" class="contact-icon" target="_blank" rel="noopener"><i class="fa-regular fa-envelope"></i></a>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="https://mail.google.com/mail/?view=cm&fs=1&to=firdush12@gmail.com" class="contact-link" target="_blank" rel="noopener">firdush12@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Jorhat, Assam, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://www.linkedin.com/in/md-farhan-rusafi-alam-a71873288" class="contact-icon" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i></a>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <p><a href="https://www.linkedin.com/in/md-farhan-rusafi-alam-a71873288" class="contact-link" target="_blank" rel="noopener">md-farhan-rusafi-alam</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <a href="https://github.com/FarhanAlam2001" class="contact-icon" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                        <div>
+                            <h4>GitHub</h4>
+                            <p><a href="https://github.com/FarhanAlam2001" class="contact-link" target="_blank" rel="noopener">FarhanAlam2001</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xoeablnn" method="POST" target="_blank">
+                    <input type="hidden" name="_subject" value="New message from portfolio contact form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fa-solid fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">MD FARHAN ALAM<span> MFA</span></div>
+                <p class="footer-text">Bridging biotechnology, computational biology, and biochemistry to illuminate the future of scientific discovery.</p>
+                <div class="social-links">
+                    <a href="https://github.com/FarhanAlam2001" class="social-link social-link-lg" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/md-farhan-rusafi-alam-a71873288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link social-link-lg" target="_blank" rel="noopener"><i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=firdush12@gmail.com" class="social-link social-link-lg" target="_blank" rel="noopener"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <p class="copyright">© 2026 Farhans Biotechnology portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
